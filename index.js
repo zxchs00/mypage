@@ -17,7 +17,7 @@ app.use(function(req, res){
     res.status(404);
     res.render('404', {layout: 'other', test: "404 - bb"});
 });
-
+// commit test
 app.use(function(err, req, res, next){
     console.error(err.stack);
     res.type('text/plain');
